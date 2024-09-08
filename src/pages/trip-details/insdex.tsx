@@ -42,7 +42,7 @@ export function TripDetailsPage () {
             </main>
 
             {isCreateActivityModalOpen && (
-                <CreateActivityModal closeCreateActivityModal={closeCreateActivityModal}/>
+                <CreateActivityModal closeCreateActivityModal={closeCreateActivityModal} />
             )}
         </div>
     )
